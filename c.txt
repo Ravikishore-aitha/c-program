@@ -1,0 +1,92 @@
+c is high level,compiler based,procedure oriented,general purpose programming language.
+high level=human understable lang
+low level=machine understable lang
+compiler=convert high level to low level lang
+procedure: a subprogram/function
+General purpose:using c we can implement various system releated software
+                 ex: os,debuggers,translaters,drivers,kernel.
+we can develop databases
+we can used to develop animation softwares
+    ex:maya
+c was invented by DENNIS RITCHIE in 1972 at A&T BELL lab.
+c is having 32 keywords,27 headerfiles,45 pre-defined fn
+
+
+using c we can develop unix os.
+structure of c program
+1)documantation section
+ex:comments
+// single line comment
+/*multiple line comment
+   .......
+   .......
+*/
+2)header file section                    alt+f9=execute
+ex:#include<stdio.h>                     crtl+f9=compile
+   #include"gitam.h"
+3)defination section
+ex:#define PI 3.14
+4)global declaration section
+ex:int a;
+imt main()
+{
+int b;
+}
+5)main section            
+ex:int main()
+   {
+    //local decleration
+    // stmt
+     return 0;
+   }
+6)sub program section
+fn 1;
+fn 2;
+
+
+variables:it is a name given to the cell/cells in the memory location
+           int_;
+           int _ab;
+            int emp_no;
+            int=10;
+
+Datatypes:
+         char -128 to +127
+         256 characters
+      ASCII 
+      a=97.........z=122
+      A=65...........Z=90
+      0=48..........9=57
+       '  '=32(space value)
+ int  2   -32,768 to +32,767  %d
+ long int 4   %ld
+ unsigned int 2   %ud
+ 
+
+
+int printf(char *control string,,,,,,)
+
+
+
+
+Types of operators:
+ 1)Arithmatic ops:
+    +,-,*,%(remainder),/(quetient)
+ 2)logical ops:
+    &&(and)  ||(or)  !(not)
+  3)relational ops:
+    <,>,>=,<=,
+
+ 4) assignment ops:
+    =
+   compound assignment ops:
+   +=,-=,*=,/=,%=
+   a+=b---------->a=a+b
+ 5)sizeof()
+  used to find the size of the variable/datatype
+ 6)ternary op/conditional op
+   ex?ex2:ex3;
+ 7)inc/dec ops:
+  if a is a variable,preincrement is represented by ++a and postincrement is a++  //'ly decrement
+ 8)bitwise ops:
+  &,|,^,~,>>,<< 
